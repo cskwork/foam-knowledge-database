@@ -1,13 +1,13 @@
 module.exports = {
-  pathPrefix: `/foam-gatsby-template`,
+  pathPrefix: `/foam-knowledge-database`,
   siteMetadata: {
-    title: `Foam`,
+    title: `Knowledge`,
   },
   plugins: [
     {
       resolve: `gatsby-theme-garden`,
       options: {
-        rootNote: "/readme",
+        rootNote: "/docs",
         contentPath: `${__dirname}/..`,
         ignore: [
           "**/_layouts/**",
