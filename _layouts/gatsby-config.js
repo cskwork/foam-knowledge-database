@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/foam-knowledge-database`,
+  pathPrefix: `/cskwork.github.io/foam-knowledge-database/`,
   siteMetadata: {
     title: `Knowledge`,
   },
